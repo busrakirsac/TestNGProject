@@ -27,12 +27,12 @@ public class C01 {
     @BeforeClass
     public void beforeClass() {
         System.out.println("Her class tan once BeforeClass notasyonuna sahip olan method 1 kez calisir");
-        System.out.println("******************************************************************");
+        System.out.println("---------------------");
     }
 
     @AfterClass
     public void afterClass() {
-        System.out.println("******************************************************************");
+        System.out.println("---------------------");
         System.out.println("Her class tan sonra Afterclass notasyonuna sahip olan method 1 kez calisir");
 
     }
