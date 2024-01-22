@@ -11,9 +11,9 @@ public class C05 {
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(2,2);
 
-        softAssert.assertTrue(2>3,);
+        softAssert.assertTrue(2>3);
 
-        softAssert.assertFalse(3>2,);
+        softAssert.assertFalse(3>2);
 
         softAssert.assertNotEquals("java","java"," iki string farkli olmaliydi, bu kontrol basarisiz olacak");
 
