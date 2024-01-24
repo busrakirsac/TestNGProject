@@ -64,6 +64,7 @@ public class C01 {
 
         //Login Testinin basarili oldugunu test edelim
         Assert.assertTrue( openSourcePage.dashBoard.isDisplayed());
+        ReusableMethods.bekle(2);
         ReusableMethods.screenShot("OpenSource");
         ReusableMethods.screenShotOfWebElement(openSourcePage.dashBoard);
 

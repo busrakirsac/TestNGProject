@@ -114,7 +114,7 @@ public class ReusableMethods {
     public static void  screenShotOfWebElement(WebElement webElement){
 
         String date = DateTimeFormatter.ofPattern("ddMMyyyy_HHmmss").format( LocalDateTime.now() );
-        String dosyaYolu = System.getProperty("user.dir") + "src/test/java/testng/testOutputs/webElementScreenshots" +  date + ".png";
+        String dosyaYolu = System.getProperty("user.dir") + "src/test/java/testng/testOutputs/Screenshots" +  date + ".png";
 
         try {
             Files.write(  Paths.get(dosyaYolu) , webElement.getScreenshotAs(OutputType.BYTES) );
