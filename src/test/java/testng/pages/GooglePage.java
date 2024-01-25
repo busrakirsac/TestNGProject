@@ -3,7 +3,7 @@ package testng.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import techproed.utilities.Driver;
+import testng.utilities.Driver;
 
 public class GooglePage {
     public GooglePage() {

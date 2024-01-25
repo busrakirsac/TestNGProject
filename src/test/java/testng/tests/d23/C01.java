@@ -7,7 +7,7 @@ public class C01 {
 
     @Test
     public void test01() {
-        String dosyaYolu="src\\test\\java\\techproed\\resources\\mysmoketestdata.xlsx";
+        String dosyaYolu="src/test/java/testng/resources/mysmoketestdata.xlsx";
         String sayfaIsmi="customer_info";
         ExcelReader excelReader=new ExcelReader(dosyaYolu,sayfaIsmi);
         System.out.println("excelReader.getCellData(0,0) = " + excelReader.getCellData(0, 0));
