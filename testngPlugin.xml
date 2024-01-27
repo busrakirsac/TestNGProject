@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/busrakirsac/IdeaProjects/TestNG/src/test/java/testng/tests/d19">
+        <classes>
+            <class name="testng.tests.d19.C01">
+                <methods>
+                    <include name="test01"/>
+                    <include name="test02"/>
+                    <include name="test03"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
