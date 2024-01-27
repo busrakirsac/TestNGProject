@@ -1,11 +1,16 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="TestNG">
     <test name="Smoke Test">
-        <classes>
-            <class name="testng.tests.d19.C01"></class>
-            <class name="testng.tests.d20.C01"></class>
-            <class name="testng.tests.d21.C02"></class>
-        </classes>
+
+        <groups>
+            <run>
+                <include name="smoke">
+                </include>
+            </run>
+        </groups>
+        <packages>
+            <package name="testng.tests.d21"></package>
+        </packages>
     </test>
 </suite>
 

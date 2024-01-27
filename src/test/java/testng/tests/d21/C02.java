@@ -8,7 +8,7 @@ import testng.utilities.Driver;
 public class C02 {
 
 
-    @Test
+    @Test(groups = "smoke")
     public void test01() {
 
         //amazon sayfasina gidelim

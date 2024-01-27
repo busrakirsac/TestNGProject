@@ -5,7 +5,7 @@ import testng.utilities.Driver;
 
 public class C01 {
 
-    @Test
+    @Test(groups = "smoke")
     public void test01() {
         Driver.getDriver().get("https://amazon.com");
         Driver.getDriver().get("https://facebook.com");
